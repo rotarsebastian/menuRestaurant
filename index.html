@@ -5,61 +5,37 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
-    <title></title>
+    <title>Restaurant Petrograd</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../menuRestaurant/imgs/small/bulgarskbondesuppe-sm.jpg">
 </head>
 
 <body>
-
-    <div class="header">
-        <h1 class="restaurant-name">Restaurant Petrograd</h1>
-        <a href="#" class="menu-page">Menu</a>
-    </div>
-
-    <div>
-        <h2>Starters</h2>
-    </div>
-
-    <section id="courses">
-
-    </section>
-
-    <template id="coursesTemplate">
-        <article>
-            <img class="foodImage" src="imgs/medium/caviarbruschetta-md.jpg" alt="caviar">
-            <h2>Product</h2>
- 
-
-            <h1>Description</h1>
-            
-            <!-- Trigger/Open The Modal -->
-            <button id="myBtn">see more</button>
-
-            <!-- The Modal -->
-            <div id="myModal" class="modal">
-
-                <!-- Modal content -->
-                <div class="modal-content">
-                    <span id="close" style="cursor: pointer;">&times;</span>
-                    <p id="text-modal">Til denne dejlige Bruschetta anvender vi kun de dejligste sibiriske Caviar. Caviarerne presses ud af fiskene mens de stadig er levende, og vædes derefter i Putinka Vodka. Der er masser af bjerggedesmør på bruschettaene.</p>
-                </div>
-
-            </div>
-          
-            <p id="price">Price</p>
-            <p id="sold">Sold Out</p>
-            <p id="discount">Discount</p>
-            <p id="alcohol">Alcohol</p>
-            <p id="allergens">Allergens</p>
-            
+     <h1>Restaurant Petrograd</h1>
+    <main>
         
-                
+    </main>
+    <template id="template">
+        <article>
+            <img alt="product image">
+            <h4 id="price">Price</h4>
+            <h4 id="sold">Sold Out</h4>
+            <h2>Product name</h2>
+            <p>Description</p>
+            
+            <button class="detail-button">details</button>
+            
+            <div class="modal-background modal hide">
+                <aside class="modal-content">
+                    <h3 class="modal-name">data-name</h3>
+                    <img class="modal-image" src="data-image" alt="data-caption">
+                    <p class="modal-description">data-longdescription</p>
+                    <h4 class="modal-price">data-price</h4>
+                </aside>
+            </div>
+            
         </article>
     </template>
-
-
-
-
-    <script src="script.js"></script>
+    <script src="temp.js"></script>
 </body>
 
 </html>
