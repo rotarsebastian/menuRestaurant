@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: "SF Pro Text", sans-serif;
 }
 
 main {
@@ -34,7 +35,7 @@ main {
 }
 
 article {
-    border: 1px solid;
+ 
 }
 
 section {
@@ -56,18 +57,91 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 58%;
+    max-width: 100%;
+}
+
+/* The Close Button For Modal*/
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-name{
+    margin-top: 0;
+}
+
+.modal-price{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.detail-button{
+    display: block;
+    margin: 0 auto;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#description{
+    text-align: center;
+    color: #b8b8b8;
+    padding: 0 70px;
+    text-transform: lowercase;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 0;
+    
 }
 
 #price {
     text-align: center;
-    font-size: 2em;
+    font-size: 23px;
     margin-bottom: 0;
+    margin-top: 10px;
+}
+#newPrice {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    color: red;
 }
 
 #sold {
     text-align: center;
-    font-size: 1em;
+    font-size: 13px;
     margin-bottom: 0;
-    margin-top: 0;
+    margin-top: 20px;
+}
+
+#name{
+    margin-bottom: 0;
+    margin-right: 0;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    padding: 0 5px;
+}
+
+#veggie{
+    margin: 0;
+    color: green;
+    text-align: center; 
+    font-size: 12px;
 }
